@@ -1888,7 +1888,7 @@
                       "id": "aBquX",
                       "name": "Work",
                       "fill": "$text-secondary",
-                      "content": "Work",
+                      "content": "Engagements",
                       "fontFamily": "$font-body",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -1908,7 +1908,7 @@
                       "id": "J5h9T0",
                       "name": "Writing",
                       "fill": "$text-secondary",
-                      "content": "Writing",
+                      "content": "Education",
                       "fontFamily": "$font-body",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -1963,7 +1963,7 @@
                       "id": "nHvML",
                       "name": "Greeting",
                       "fill": "$bark",
-                      "content": "नमस्ते  ·  Hello  ·  Ciao",
+                      "content": "Seattle  ·  Vancouver  ·  Delhi",
                       "fontFamily": "$font-mono",
                       "fontSize": 12,
                       "fontWeight": "normal",
@@ -1976,7 +1976,7 @@
                       "fill": "$text-primary",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Product designer shaping calm, considered software.",
+                      "content": "Transaction advisory — FDD, quality of earnings, carve-outs.",
                       "lineHeight": 1.12,
                       "fontFamily": "$font-display",
                       "fontSize": 56,
@@ -1989,7 +1989,7 @@
                       "fill": "$text-secondary",
                       "textGrowth": "fixed-width",
                       "width": 520,
-                      "content": "I work end to end — research, interface, and the details that decide whether a product feels trustworthy. Currently based in London.",
+                      "content": "CPA candidate (Washington State, AUD passed) working across financial due diligence, quality of earnings and carve-outs — in SaaS, industrials and healthcare — with a public accounting audit foundation and cross-border Canada/US deal experience.",
                       "lineHeight": 1.65,
                       "fontFamily": "$font-body",
                       "fontSize": 17,
@@ -2026,7 +2026,7 @@
                               "id": "ULsRj",
                               "name": "Label",
                               "fill": "$text-inverse",
-                              "content": "Download CV",
+                              "content": "Download resume",
                               "fontFamily": "$font-body",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -2143,160 +2143,6 @@
         },
         {
           "type": "frame",
-          "id": "SwMZZ",
-          "name": "Stats Wrap",
-          "width": "fill_container",
-          "fill": "$bg-sunken",
-          "stroke": "$border-subtle",
-          "strokeWidth": {
-            "top": 1,
-            "bottom": 1
-          },
-          "strokeAlignment": "inner",
-          "padding": [
-            36,
-            0
-          ],
-          "justifyContent": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "B98jP9",
-              "name": "Stats",
-              "width": 1040,
-              "justifyContent": "space_between",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "Eh3nc",
-                  "name": "Years designing",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 6,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "HCYBu",
-                      "name": "Value",
-                      "fill": "$text-primary",
-                      "content": "6+",
-                      "lineHeight": 1.1,
-                      "fontFamily": "$font-display",
-                      "fontSize": 34,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "S9LmhH",
-                      "name": "Label",
-                      "fill": "$text-secondary",
-                      "content": "Years designing",
-                      "fontFamily": "$font-body",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "pbcRq",
-                  "name": "Products shipped",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 6,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "TCSDc",
-                      "name": "Value",
-                      "fill": "$text-primary",
-                      "content": "40+",
-                      "lineHeight": 1.1,
-                      "fontFamily": "$font-display",
-                      "fontSize": 34,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Sa243",
-                      "name": "Label",
-                      "fill": "$text-secondary",
-                      "content": "Products shipped",
-                      "fontFamily": "$font-body",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "AmYgk",
-                  "name": "Client rating",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 6,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "t427Gx",
-                      "name": "Value",
-                      "fill": "$text-primary",
-                      "content": "4.9",
-                      "lineHeight": 1.1,
-                      "fontFamily": "$font-display",
-                      "fontSize": 34,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "E531c",
-                      "name": "Label",
-                      "fill": "$text-secondary",
-                      "content": "Client rating",
-                      "fontFamily": "$font-body",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "VYtLS",
-                  "name": "Teams partnered",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 6,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "OLCu8",
-                      "name": "Value",
-                      "fill": "$text-primary",
-                      "content": "12",
-                      "lineHeight": 1.1,
-                      "fontFamily": "$font-display",
-                      "fontSize": 34,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "eMeWz",
-                      "name": "Label",
-                      "fill": "$text-secondary",
-                      "content": "Teams partnered",
-                      "fontFamily": "$font-body",
-                      "fontSize": 13,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
           "id": "FLcwg",
           "name": "Work Wrap",
           "width": "fill_container",
@@ -2334,7 +2180,7 @@
                           "id": "ZvT0l",
                           "name": "Eyebrow",
                           "fill": "$bark",
-                          "content": "SELECTED WORK",
+                          "content": "SELECTED ENGAGEMENTS",
                           "fontFamily": "$font-mono",
                           "fontSize": 11,
                           "fontWeight": "normal",
@@ -2345,7 +2191,7 @@
                           "id": "EJzAF",
                           "name": "Title",
                           "fill": "$text-primary",
-                          "content": "Case studies",
+                          "content": "Deal work",
                           "lineHeight": 1.15,
                           "fontFamily": "$font-display",
                           "fontSize": 40,
@@ -2358,7 +2204,7 @@
                       "id": "ikcHP",
                       "name": "Count",
                       "fill": "$text-muted",
-                      "content": "2021 — 2026",
+                      "content": "2024 — 2026",
                       "fontFamily": "$font-mono",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -2377,205 +2223,29 @@
                       "id": "RHIS5",
                       "type": "ref",
                       "ref": "H72ByV",
-                      "name": "Meridian Design System",
-                      "width": "fill_container",
-                      "descendants": {
-                        "eXkUN": {
-                          "fill": {
-                            "type": "gradient",
-                            "gradientType": "linear",
-                            "enabled": true,
-                            "rotation": 135,
-                            "size": {
-                              "height": 1
-                            },
-                            "colors": [
-                              {
-                                "color": "#A8B5A0",
-                                "position": 0
-                              },
-                              {
-                                "color": "#7D8F76",
-                                "position": 1
-                              }
-                            ]
-                          }
-                        },
-                        "E3ISaA": {
-                          "content": "2025"
-                        },
-                        "eLwP1": {
-                          "content": "Lead Product Designer"
-                        },
-                        "NyM5L": {
-                          "content": "Meridian Design System"
-                        },
-                        "ckRmA": {
-                          "content": "Unified eleven fragmented product surfaces into a single system, cutting design-to-ship time by 40%."
-                        },
-                        "eZAe9": {
-                          "content": "Design systems"
-                        },
-                        "PN5f4": {
-                          "content": "Figma"
-                        },
-                        "r00JAX": {
-                          "content": "Tokens"
-                        }
-                      }
+                      "name": "Engineering VDD — Revenue Recognition",
+                      "width": "fill_container"
                     },
                     {
                       "id": "WL1eb",
                       "type": "ref",
                       "ref": "H72ByV",
-                      "name": "Clinical Records Redesign",
-                      "width": "fill_container",
-                      "descendants": {
-                        "eXkUN": {
-                          "fill": {
-                            "type": "gradient",
-                            "gradientType": "linear",
-                            "enabled": true,
-                            "rotation": 135,
-                            "size": {
-                              "height": 1
-                            },
-                            "colors": [
-                              {
-                                "color": "#CC9766",
-                                "position": 0
-                              },
-                              {
-                                "color": "#9E6447",
-                                "position": 1
-                              }
-                            ]
-                          }
-                        },
-                        "E3ISaA": {
-                          "content": "2024"
-                        },
-                        "eLwP1": {
-                          "content": "Senior Product Designer"
-                        },
-                        "NyM5L": {
-                          "content": "Clinical Records Redesign"
-                        },
-                        "ckRmA": {
-                          "content": "Rebuilt the patient timeline used by 3,000 clinicians daily — fewer clicks, fewer errors, calmer shifts."
-                        },
-                        "eZAe9": {
-                          "content": "Research"
-                        },
-                        "PN5f4": {
-                          "content": "Healthcare"
-                        },
-                        "r00JAX": {
-                          "content": "Accessibility"
-                        }
-                      }
+                      "name": "SaaS Buy-Side Diligence",
+                      "width": "fill_container"
                     },
                     {
                       "id": "jYnuC",
                       "type": "ref",
                       "ref": "H72ByV",
-                      "name": "Fieldwork Mobile",
-                      "width": "fill_container",
-                      "descendants": {
-                        "eXkUN": {
-                          "fill": {
-                            "type": "gradient",
-                            "gradientType": "linear",
-                            "enabled": true,
-                            "rotation": 135,
-                            "size": {
-                              "height": 1
-                            },
-                            "colors": [
-                              {
-                                "color": "#7D8F76",
-                                "position": 0
-                              },
-                              {
-                                "color": "#3D4A38",
-                                "position": 1
-                              }
-                            ]
-                          }
-                        },
-                        "E3ISaA": {
-                          "content": "2023"
-                        },
-                        "eLwP1": {
-                          "content": "Product Designer"
-                        },
-                        "NyM5L": {
-                          "content": "Fieldwork Mobile"
-                        },
-                        "ckRmA": {
-                          "content": "An offline-first app for ecologists recording species data in remote terrain."
-                        },
-                        "eZAe9": {
-                          "content": "Mobile"
-                        },
-                        "PN5f4": {
-                          "content": "Offline UX"
-                        },
-                        "r00JAX": {
-                          "content": "Maps"
-                        }
-                      }
+                      "name": "Software Carve-Outs",
+                      "width": "fill_container"
                     },
                     {
                       "id": "V0kLeB",
                       "type": "ref",
                       "ref": "H72ByV",
-                      "name": "Ledger Onboarding",
-                      "width": "fill_container",
-                      "descendants": {
-                        "eXkUN": {
-                          "fill": {
-                            "type": "gradient",
-                            "gradientType": "linear",
-                            "enabled": true,
-                            "rotation": 135,
-                            "size": {
-                              "height": 1
-                            },
-                            "colors": [
-                              {
-                                "color": "#BE8460",
-                                "position": 0
-                              },
-                              {
-                                "color": "#96694A",
-                                "position": 1
-                              }
-                            ]
-                          }
-                        },
-                        "E3ISaA": {
-                          "content": "2022"
-                        },
-                        "eLwP1": {
-                          "content": "Product Designer"
-                        },
-                        "NyM5L": {
-                          "content": "Ledger Onboarding"
-                        },
-                        "ckRmA": {
-                          "content": "Reduced first-week drop-off by 28% by rewriting the account setup flow end to end."
-                        },
-                        "eZAe9": {
-                          "content": "Onboarding"
-                        },
-                        "PN5f4": {
-                          "content": "Fintech"
-                        },
-                        "r00JAX": {
-                          "content": "Copy"
-                        }
-                      }
+                      "name": "Multinational Asset Consolidation",
+                      "width": "fill_container"
                     }
                   ]
                 }
@@ -2650,7 +2320,7 @@
                     {
                       "type": "frame",
                       "id": "kkYoB",
-                      "name": "Northwind Health",
+                      "name": "BDO",
                       "width": "fill_container",
                       "stroke": "$border-default",
                       "strokeWidth": {
@@ -2670,7 +2340,7 @@
                           "fill": "$text-muted",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "2024 — Present",
+                          "content": "2025 — 2026",
                           "lineHeight": 1.7,
                           "fontFamily": "$font-mono",
                           "fontSize": 12,
@@ -2696,7 +2366,7 @@
                                   "id": "ONd9R",
                                   "name": "Role",
                                   "fill": "$text-primary",
-                                  "content": "Lead Product Designer",
+                                  "content": "Associate, Transaction Services",
                                   "fontFamily": "$font-body",
                                   "fontSize": 17,
                                   "fontWeight": "600"
@@ -2716,7 +2386,7 @@
                                   "id": "VRse7",
                                   "name": "Co",
                                   "fill": "$moss",
-                                  "content": "Northwind Health",
+                                  "content": "BDO · Calgary",
                                   "fontFamily": "$font-body",
                                   "fontSize": 16,
                                   "fontWeight": "normal"
@@ -2730,7 +2400,7 @@
                               "fill": "$text-secondary",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Design lead for the clinical platform. Built the system that three squads now ship against.",
+                              "content": "Executed 23 middle-market buy-side and sell-side engagements for businesses with $10M–$50M in revenue across SaaS, professional services, industrials, healthcare and consumer. Flagged ~$450K in potential cash and debt-like adjustments impacting purchase price.",
                               "lineHeight": 1.65,
                               "fontFamily": "$font-body",
                               "fontSize": 14.5,
@@ -2743,7 +2413,7 @@
                     {
                       "type": "frame",
                       "id": "HB5YP",
-                      "name": "Ora Labs",
+                      "name": "Buckley Dodds CPA",
                       "width": "fill_container",
                       "stroke": "$border-default",
                       "strokeWidth": {
@@ -2763,7 +2433,7 @@
                           "fill": "$text-muted",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "2022 — 2024",
+                          "content": "2024 — 2025",
                           "lineHeight": 1.7,
                           "fontFamily": "$font-mono",
                           "fontSize": 12,
@@ -2789,7 +2459,7 @@
                                   "id": "eiwty",
                                   "name": "Role",
                                   "fill": "$text-primary",
-                                  "content": "Senior Product Designer",
+                                  "content": "Staff Accountant",
                                   "fontFamily": "$font-body",
                                   "fontSize": 17,
                                   "fontWeight": "600"
@@ -2809,7 +2479,7 @@
                                   "id": "gwNrU",
                                   "name": "Co",
                                   "fill": "$moss",
-                                  "content": "Ora Labs",
+                                  "content": "Buckley Dodds CPA · Vancouver",
                                   "fontFamily": "$font-body",
                                   "fontSize": 16,
                                   "fontWeight": "normal"
@@ -2823,7 +2493,7 @@
                               "fill": "$text-secondary",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Owned onboarding and billing. Shipped the redesign that lifted activation 28%.",
+                              "content": "Led 20 mid-market audit engagements across healthcare, energy, mining and construction, from planning and risk assessment through financial statement issuance. Identified ~$325K in inventory valuation adjustments for an industrial client.",
                               "lineHeight": 1.65,
                               "fontFamily": "$font-body",
                               "fontSize": 14.5,
@@ -2836,7 +2506,7 @@
                     {
                       "type": "frame",
                       "id": "kLoyU",
-                      "name": "Fieldnote",
+                      "name": "Gaurav International",
                       "width": "fill_container",
                       "stroke": "$border-default",
                       "strokeWidth": {
@@ -2882,7 +2552,7 @@
                                   "id": "jSOiZ",
                                   "name": "Role",
                                   "fill": "$text-primary",
-                                  "content": "Product Designer",
+                                  "content": "Financial Analyst",
                                   "fontFamily": "$font-body",
                                   "fontSize": 17,
                                   "fontWeight": "600"
@@ -2902,7 +2572,7 @@
                                   "id": "uvlfu",
                                   "name": "Co",
                                   "fill": "$moss",
-                                  "content": "Fieldnote",
+                                  "content": "Gaurav International · Delhi",
                                   "fontFamily": "$font-body",
                                   "fontSize": 16,
                                   "fontWeight": "normal"
@@ -2916,7 +2586,7 @@
                               "fill": "$text-secondary",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "First design hire. Took the mobile app from prototype to 20k installs.",
+                              "content": "Analyzed pricing, margins and operating costs to surface profitability improvements, and optimized procurement and material utilization for roughly $300K in annual cost savings.",
                               "lineHeight": 1.65,
                               "fontFamily": "$font-body",
                               "fontSize": 14.5,
@@ -2929,7 +2599,7 @@
                     {
                       "type": "frame",
                       "id": "YMP59",
-                      "name": "Studio Verdant",
+                      "name": "Ernst & Young",
                       "width": "fill_container",
                       "gap": "$space-6",
                       "padding": [
@@ -2970,7 +2640,7 @@
                                   "id": "N8hdq",
                                   "name": "Role",
                                   "fill": "$text-primary",
-                                  "content": "Design Intern",
+                                  "content": "Assurance Associate",
                                   "fontFamily": "$font-body",
                                   "fontSize": 17,
                                   "fontWeight": "600"
@@ -2990,7 +2660,7 @@
                                   "id": "WUL4k",
                                   "name": "Co",
                                   "fill": "$moss",
-                                  "content": "Studio Verdant",
+                                  "content": "Ernst & Young · Delhi",
                                   "fontFamily": "$font-body",
                                   "fontSize": 16,
                                   "fontWeight": "normal"
@@ -3004,7 +2674,7 @@
                               "fill": "$text-secondary",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Brand and web work for small cultural clients.",
+                              "content": "Executed quarterly and year-end audits across technology and healthcare clients, and performed SOX walkthroughs, controls and IPE testing over key financial reporting processes for US GAAP.",
                               "lineHeight": 1.65,
                               "fontFamily": "$font-body",
                               "fontSize": 14.5,
@@ -3023,7 +2693,7 @@
         {
           "type": "frame",
           "id": "dD7wz",
-          "name": "Testimonial Wrap",
+          "name": "Credentials Wrap",
           "width": "fill_container",
           "padding": [
             88,
@@ -3034,83 +2704,265 @@
             {
               "type": "frame",
               "id": "d4xLC5",
-              "name": "Testimonial",
+              "name": "Credentials",
               "width": 1040,
-              "fill": "$clay",
+              "fill": "$bg-raised",
               "cornerRadius": "$radius-lg",
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
               "layout": "vertical",
-              "gap": "$space-5",
+              "gap": "$space-7",
               "padding": "$space-8",
               "children": [
                 {
-                  "type": "icon",
-                  "id": "baCII",
-                  "name": "Quote",
-                  "width": 26,
-                  "height": 26,
-                  "icon": "quote",
-                  "library": "lucide",
-                  "fill": "$bark"
-                },
-                {
-                  "type": "text",
-                  "id": "BFEqm",
-                  "name": "Quote Text",
-                  "fill": "$text-primary",
-                  "textGrowth": "fixed-width",
-                  "width": 800,
-                  "content": "Kanika does the part most designers skip — she stays with a problem until the shape of it is actually simple. The system she built is still the backbone of how we ship.",
-                  "lineHeight": 1.45,
-                  "fontFamily": "$font-display",
-                  "fontSize": 26,
-                  "fontWeight": "normal"
+                  "type": "frame",
+                  "id": "e1EgLT",
+                  "name": "Heading",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$space-2",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ajqJR",
+                      "name": "Eyebrow",
+                      "fill": "$text-muted",
+                      "content": "EDUCATION & CREDENTIALS",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "Mxqx7",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "Qualifications",
+                      "lineHeight": 1.2,
+                      "fontFamily": "$font-display",
+                      "fontSize": 34,
+                      "fontWeight": "600"
+                    }
+                  ]
                 },
                 {
                   "type": "frame",
-                  "id": "WxCbo",
-                  "name": "Attribution",
-                  "gap": "$space-3",
-                  "padding": [
-                    8,
-                    0,
-                    0,
-                    0
-                  ],
-                  "alignItems": "center",
+                  "id": "P2gXcK",
+                  "name": "Credential Row",
+                  "width": "fill_container",
+                  "gap": "$space-7",
                   "children": [
                     {
-                      "type": "ellipse",
-                      "id": "av4Ea",
-                      "name": "Avatar",
-                      "fill": "$bark",
-                      "width": 40,
-                      "height": 40
-                    },
-                    {
                       "type": "frame",
-                      "id": "TsKGL",
-                      "name": "Who",
+                      "id": "vpVJn",
+                      "name": "CPA Candidate",
+                      "width": "fill_container",
+                      "stroke": "$border-default",
+                      "strokeWidth": {
+                        "left": 2
+                      },
+                      "strokeAlignment": "inner",
                       "layout": "vertical",
-                      "gap": 2,
+                      "gap": "$space-2",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        "$space-4"
+                      ],
                       "children": [
                         {
                           "type": "text",
-                          "id": "TzWD2",
-                          "name": "Name",
+                          "id": "n9Sqh",
+                          "name": "When",
+                          "fill": "$text-muted",
+                          "content": "In progress",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "HUw1s",
+                          "name": "Qualification",
                           "fill": "$text-primary",
-                          "content": "Marcus Reid",
-                          "fontFamily": "$font-body",
-                          "fontSize": 15,
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "CPA Candidate",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font-display",
+                          "fontSize": 20,
                           "fontWeight": "600"
                         },
                         {
                           "type": "text",
-                          "id": "YLqRU",
-                          "name": "Role",
+                          "id": "HUpDr",
+                          "name": "Institution",
                           "fill": "$text-secondary",
-                          "content": "Head of Product, Northwind Health",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Washington State",
+                          "lineHeight": 1.5,
                           "fontFamily": "$font-body",
-                          "fontSize": 13.5,
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mnGeo",
+                          "name": "Detail",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "AUD passed · FAR scheduled",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ebYme",
+                      "name": "MSc, Finance",
+                      "width": "fill_container",
+                      "stroke": "$border-default",
+                      "strokeWidth": {
+                        "left": 2
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": "$space-2",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        "$space-4"
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wu9NK",
+                          "name": "When",
+                          "fill": "$text-muted",
+                          "content": "2022 — 2023",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "mrZDg",
+                          "name": "Qualification",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "MSc, Finance",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font-display",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vH4sM",
+                          "name": "Institution",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Simon Fraser University",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Htsgi",
+                          "name": "Detail",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Merit Scholar · Vancouver, Canada",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KLlhm",
+                      "name": "BCom, Honors",
+                      "width": "fill_container",
+                      "stroke": "$border-default",
+                      "strokeWidth": {
+                        "left": 2
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": "$space-2",
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        "$space-4"
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PiBr9",
+                          "name": "When",
+                          "fill": "$text-muted",
+                          "content": "2017 — 2020",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "xbWet",
+                          "name": "Qualification",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "BCom, Honors",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font-display",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CUUft",
+                          "name": "Institution",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "University of Delhi",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Fiu9o",
+                          "name": "Detail",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Delhi, India",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
                           "fontWeight": "normal"
                         }
                       ]
@@ -3167,7 +3019,7 @@
                   "fill": "$text-inverse",
                   "textGrowth": "fixed-width",
                   "width": 640,
-                  "content": "Let's make something considered.",
+                  "content": "Let's talk about your next deal.",
                   "lineHeight": 1.15,
                   "textAlign": "center",
                   "fontFamily": "$font-display",
@@ -3181,7 +3033,7 @@
                   "fill": "#C9CFC4",
                   "textGrowth": "fixed-width",
                   "width": 520,
-                  "content": "Taking on two projects for spring 2026. Tell me what you're building.",
+                  "content": "Open to transaction advisory and financial due diligence roles in Seattle. CPA candidate, FAR scheduled. Happy to talk anytime.",
                   "lineHeight": 1.65,
                   "textAlign": "center",
                   "fontFamily": "$font-body",
@@ -3206,7 +3058,7 @@
                       "id": "G2ZbiR",
                       "name": "Label",
                       "fill": "$text-primary",
-                      "content": "hello@guptakanika.com",
+                      "content": "kanikag2@outlook.com",
                       "fontFamily": "$font-body",
                       "fontSize": 15,
                       "fontWeight": "500"
@@ -3569,7 +3421,7 @@
                   "id": "r8DSb",
                   "name": "Label",
                   "fill": "$moss",
-                  "content": "Read case study",
+                  "content": "Read the detail",
                   "fontFamily": "$font-body",
                   "fontSize": 14,
                   "fontWeight": "500"
@@ -3585,6 +3437,3148 @@
                   "fill": "$moss"
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qXhaD",
+      "x": 3000,
+      "y": -230,
+      "name": "Kanika — Easter Egg",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg-canvas",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "T1h0P",
+          "name": "Back Bar Wrap",
+          "width": "fill_container",
+          "padding": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nwxJF",
+              "name": "Back Bar",
+              "width": 1040,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DKRAl",
+                  "name": "Back Link",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Z615ug",
+                      "name": "Icon",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "arrow-left",
+                      "library": "lucide",
+                      "fill": "$text-muted"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i2yn9",
+                      "name": "Label",
+                      "fill": "$text-muted",
+                      "content": "back to the portfolio",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "sCo2j",
+                  "name": "Secret Tag",
+                  "fill": "$terracotta",
+                  "content": "YOU FOUND IT",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Cz2z6",
+          "name": "Tributes Wrap",
+          "width": "fill_container",
+          "padding": [
+            24,
+            0,
+            96,
+            0
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "f4hX3L",
+              "name": "Tributes",
+              "width": 1040,
+              "layout": "vertical",
+              "gap": 112,
+              "children": [
+                {
+                  "id": "dWcca",
+                  "type": "ref",
+                  "ref": "vecXb",
+                  "name": "Mummy",
+                  "width": "fill_container",
+                  "rotation": 0,
+                  "descendants": {
+                    "K528Ia": {
+                      "fill": [
+                        "$photo-mauve",
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 90,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000000",
+                              "position": 0
+                            },
+                            {
+                              "color": "#0000001A",
+                              "position": 0.45
+                            },
+                            {
+                              "color": "#000000B8",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "width": 480,
+                      "height": 640
+                    },
+                    "H9o6V7": {
+                      "fill": "$terracotta"
+                    },
+                    "KJJjD": {
+                      "content": "Mummy"
+                    },
+                    "NCugm": {
+                      "content": "MOM"
+                    },
+                    "rZ9iF": {
+                      "content": "[ placeholder — paste Mummy's full message here. These are long messages, so this column is built for real paragraphs: it grows downward as you add words, and nothing needs trimming to fit. ]"
+                    }
+                  }
+                },
+                {
+                  "id": "GpDcH",
+                  "type": "ref",
+                  "ref": "bqARb",
+                  "name": "Papa",
+                  "width": "fill_container",
+                  "descendants": {
+                    "Jb7bC": {
+                      "fill": "$sage-deep"
+                    },
+                    "EyCBq": {
+                      "content": "Papa"
+                    },
+                    "DoO3F": {
+                      "content": "DAD"
+                    },
+                    "yioxM": {
+                      "content": "[ placeholder — paste Papa's full message here. These are long messages, so this column is built for real paragraphs: it grows downward as you add words, and nothing needs trimming to fit. ]"
+                    },
+                    "zsWsP": {
+                      "fill": [
+                        "$sage-deep",
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 90,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000000",
+                              "position": 0
+                            },
+                            {
+                              "color": "#0000001A",
+                              "position": 0.45
+                            },
+                            {
+                              "color": "#000000B8",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "width": 480,
+                      "height": 640
+                    }
+                  }
+                },
+                {
+                  "id": "vzJ28",
+                  "type": "ref",
+                  "ref": "vecXb",
+                  "name": "Bhai",
+                  "width": "fill_container",
+                  "rotation": 0,
+                  "descendants": {
+                    "K528Ia": {
+                      "fill": [
+                        "$bark",
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 90,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000000",
+                              "position": 0
+                            },
+                            {
+                              "color": "#0000001A",
+                              "position": 0.45
+                            },
+                            {
+                              "color": "#000000B8",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "width": 480,
+                      "height": 640
+                    },
+                    "H9o6V7": {
+                      "fill": "$ochre"
+                    },
+                    "KJJjD": {
+                      "content": "Bhai"
+                    },
+                    "NCugm": {
+                      "content": "BROTHER"
+                    },
+                    "rZ9iF": {
+                      "content": "[ placeholder — paste Bhai's full message here. These are long messages, so this column is built for real paragraphs: it grows downward as you add words, and nothing needs trimming to fit. ]"
+                    }
+                  }
+                },
+                {
+                  "id": "u6AFFC",
+                  "type": "ref",
+                  "ref": "bqARb",
+                  "name": "Anant",
+                  "width": "fill_container",
+                  "descendants": {
+                    "Jb7bC": {
+                      "fill": "$moss"
+                    },
+                    "EyCBq": {
+                      "content": "Anant"
+                    },
+                    "DoO3F": {
+                      "content": "HUSBAND"
+                    },
+                    "yioxM": {
+                      "content": "[ placeholder — paste Anant's full message here. These are long messages, so this column is built for real paragraphs: it grows downward as you add words, and nothing needs trimming to fit. ]"
+                    },
+                    "zsWsP": {
+                      "fill": [
+                        "$slate-blend",
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 90,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000000",
+                              "position": 0
+                            },
+                            {
+                              "color": "#0000001A",
+                              "position": 0.45
+                            },
+                            {
+                              "color": "#000000B8",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "width": 480,
+                      "height": 640
+                    }
+                  }
+                },
+                {
+                  "id": "JF7c6",
+                  "type": "ref",
+                  "ref": "vecXb",
+                  "name": "Nani",
+                  "width": "fill_container",
+                  "rotation": 0,
+                  "descendants": {
+                    "K528Ia": {
+                      "fill": [
+                        "$clay-rose",
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 90,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000000",
+                              "position": 0
+                            },
+                            {
+                              "color": "#0000001A",
+                              "position": 0.45
+                            },
+                            {
+                              "color": "#000000B8",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "width": 480,
+                      "height": 640
+                    },
+                    "H9o6V7": {
+                      "fill": "$clay-rose"
+                    },
+                    "KJJjD": {
+                      "content": "Nani"
+                    },
+                    "NCugm": {
+                      "content": "GRANDMOTHER"
+                    },
+                    "rZ9iF": {
+                      "content": "[ placeholder — paste Nani's full message here. These are long messages, so this column is built for real paragraphs: it grows downward as you add words, and nothing needs trimming to fit. ]"
+                    }
+                  }
+                },
+                {
+                  "id": "lH5Lm",
+                  "type": "ref",
+                  "ref": "bqARb",
+                  "name": "Priya",
+                  "width": "fill_container",
+                  "descendants": {
+                    "Jb7bC": {
+                      "fill": "$bark"
+                    },
+                    "EyCBq": {
+                      "content": "Priya"
+                    },
+                    "DoO3F": {
+                      "content": "BEST FRIEND"
+                    },
+                    "yioxM": {
+                      "content": "[ placeholder — paste Priya's full message here. These are long messages, so this column is built for real paragraphs: it grows downward as you add words, and nothing needs trimming to fit. ]"
+                    },
+                    "zsWsP": {
+                      "fill": [
+                        "$photo-backdrop",
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 90,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000000",
+                              "position": 0
+                            },
+                            {
+                              "color": "#0000001A",
+                              "position": 0.45
+                            },
+                            {
+                              "color": "#000000B8",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "width": 480,
+                      "height": 640
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bSIhp",
+          "name": "Closing Wrap",
+          "width": "fill_container",
+          "padding": [
+            96,
+            0
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "n7vvax",
+              "name": "Closing",
+              "width": 1040,
+              "fill": "$bg-inverse",
+              "cornerRadius": "$radius-lg",
+              "layout": "vertical",
+              "gap": "$space-5",
+              "padding": [
+                80,
+                64
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Q9Thn",
+                  "name": "Eyebrow",
+                  "fill": "$fern",
+                  "content": "ONE MORE THING",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "W4dSJ5",
+                  "name": "Heading",
+                  "fill": "$text-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "We are so proud of you — the CPA, the deals, all of it. But mostly just you.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "$font-display",
+                  "fontSize": 40,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "JPLSk",
+                  "name": "Sub",
+                  "fill": "#C9CFC4",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Have the happiest birthday. Now go back and pretend you were just looking for the email.",
+                  "lineHeight": 1.65,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "NMGDp",
+                  "name": "Button",
+                  "fill": "$bg-canvas",
+                  "cornerRadius": "$radius-full",
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tGUR5",
+                      "name": "Label",
+                      "fill": "$text-primary",
+                      "content": "kanikag2@outlook.com",
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "nHZbd",
+                      "name": "Icon",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "copy",
+                      "library": "lucide",
+                      "fill": "$text-primary"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zfdo9",
+          "name": "Egg Footer Wrap",
+          "width": "fill_container",
+          "padding": [
+            0,
+            0,
+            56,
+            0
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JtbeR",
+              "name": "Egg Footer",
+              "width": 1040,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w6Ws9W",
+                  "name": "Note",
+                  "fill": "$text-muted",
+                  "content": "made with love · hidden behind the email · 2026",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vecXb",
+      "x": 3000,
+      "y": -2770,
+      "name": "Tribute",
+      "reusable": true,
+      "width": 1040,
+      "gap": 56,
+      "children": [
+        {
+          "type": "frame",
+          "id": "K528Ia",
+          "name": "Photo",
+          "clip": true,
+          "width": 480,
+          "height": 640,
+          "fill": [
+            "$slate-blend",
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 90,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#00000000",
+                  "position": 0
+                },
+                {
+                  "color": "#0000001A",
+                  "position": 0.45
+                },
+                {
+                  "color": "#000000B8",
+                  "position": 1
+                }
+              ]
+            }
+          ],
+          "cornerRadius": "$radius-lg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "eiJcG",
+              "layoutPosition": "absolute",
+              "x": 204,
+              "y": 296,
+              "name": "Photo Hint",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "O6Ff6",
+                  "name": "Icon",
+                  "width": 26,
+                  "height": 26,
+                  "icon": "image",
+                  "library": "lucide",
+                  "fill": "#FAF7F080"
+                },
+                {
+                  "type": "text",
+                  "id": "E0bx7",
+                  "name": "Label",
+                  "fill": "#FAF7F099",
+                  "content": "PHOTO · 3:4",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AfODQ",
+          "name": "Message",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": "$space-5",
+          "padding": [
+            28,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LRvTb",
+              "name": "Sig Row",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "H9o6V7",
+                  "name": "Dot",
+                  "fill": "$terracotta",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "frame",
+                  "id": "xAxhu",
+                  "name": "Name Wrap",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KJJjD",
+                      "name": "From",
+                      "fill": "$text-primary",
+                      "content": "Name",
+                      "fontFamily": "$font-display",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NCugm",
+                      "name": "Relation",
+                      "fill": "$text-muted",
+                      "content": "RELATION",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "rZ9iF",
+              "name": "Body",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "[ message ]",
+              "lineHeight": 1.75,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "bqARb",
+      "x": 3000,
+      "y": -3510,
+      "name": "Tribute Mirror",
+      "reusable": true,
+      "width": 1040,
+      "gap": 56,
+      "children": [
+        {
+          "type": "frame",
+          "id": "b3zxz",
+          "name": "Message",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$space-5",
+          "padding": [
+            28,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "O4n49j",
+              "name": "Sig Row",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "Jb7bC",
+                  "name": "Dot",
+                  "fill": "$terracotta",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "type": "frame",
+                  "id": "DH3vy",
+                  "name": "Name Wrap",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EyCBq",
+                      "name": "From",
+                      "fill": "$text-primary",
+                      "content": "Name",
+                      "fontFamily": "$font-display",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DoO3F",
+                      "name": "Relation",
+                      "fill": "$text-muted",
+                      "content": "RELATION",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "yioxM",
+              "name": "Body",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "[ message ]",
+              "lineHeight": 1.75,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zsWsP",
+          "name": "Photo",
+          "clip": true,
+          "width": 480,
+          "height": 640,
+          "fill": [
+            "$slate-blend",
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 90,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#00000000",
+                  "position": 0
+                },
+                {
+                  "color": "#0000001A",
+                  "position": 0.45
+                },
+                {
+                  "color": "#000000B8",
+                  "position": 1
+                }
+              ]
+            }
+          ],
+          "cornerRadius": "$radius-lg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "t3qX0",
+              "layoutPosition": "absolute",
+              "x": 204,
+              "y": 296,
+              "name": "Photo Hint",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "pQHI3",
+                  "name": "Icon",
+                  "width": 26,
+                  "height": 26,
+                  "icon": "image",
+                  "library": "lucide",
+                  "fill": "#FAF7F080"
+                },
+                {
+                  "type": "text",
+                  "id": "rl5P9",
+                  "name": "Label",
+                  "fill": "#FAF7F099",
+                  "content": "PHOTO · 3:4",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "BkuPu",
+      "x": 4640,
+      "y": -230,
+      "name": "Easter Egg — Mobile",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg-canvas",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "p0HyD",
+          "name": "Back Bar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            24,
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ptpwU",
+              "name": "Back Link",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "O0Bwq",
+                  "name": "Icon",
+                  "width": 13,
+                  "height": 13,
+                  "icon": "arrow-left",
+                  "library": "lucide",
+                  "fill": "$text-muted"
+                },
+                {
+                  "type": "text",
+                  "id": "jBVmZ",
+                  "name": "Label",
+                  "fill": "$text-muted",
+                  "content": "back",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "yBgfS",
+              "name": "Secret Tag",
+              "fill": "$terracotta",
+              "content": "YOU FOUND IT",
+              "fontFamily": "$font-mono",
+              "fontSize": 9,
+              "fontWeight": "normal",
+              "letterSpacing": 1.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lHmsN",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            48,
+            24,
+            44,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "X48bQL",
+              "name": "Eyebrow",
+              "fill": "$sage-deep",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A LETTER FROM EVERYONE",
+              "textAlign": "center",
+              "fontFamily": "$font-mono",
+              "fontSize": 9,
+              "fontWeight": "normal",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "NPqzq",
+              "name": "Headline",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Happy birthday, Kanika.",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "$font-display",
+              "fontSize": 40,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "RD2T2",
+              "name": "Sub",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "You came here looking for an email address. Instead — everyone who loves you sent a photo and wrote you something, and hid it all behind it.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xYB9D",
+          "name": "Tributes",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            0,
+            24,
+            72,
+            24
+          ],
+          "children": [
+            {
+              "id": "O29Yd8",
+              "type": "ref",
+              "ref": "P9jes",
+              "name": "Mummy",
+              "width": "fill_container",
+              "descendants": {
+                "zG4vB": {
+                  "fill": [
+                    "$photo-mauve",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 90,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000000",
+                          "position": 0
+                        },
+                        {
+                          "color": "#0000001A",
+                          "position": 0.45
+                        },
+                        {
+                          "color": "#000000B8",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "width": 342,
+                  "height": 456
+                },
+                "OmcFf": {
+                  "fill": "$terracotta"
+                },
+                "h2Akrs": {
+                  "content": "Mummy"
+                },
+                "kHzWv": {
+                  "content": "MOM"
+                },
+                "Q9HAf": {
+                  "content": "[ placeholder — paste Mummy's full message here. These are long messages, so this block is built for real paragraphs: it grows downward as you add words. ]"
+                }
+              }
+            },
+            {
+              "id": "c6pHuI",
+              "type": "ref",
+              "ref": "P9jes",
+              "name": "Papa",
+              "width": "fill_container",
+              "descendants": {
+                "zG4vB": {
+                  "fill": [
+                    "$sage-deep",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 90,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000000",
+                          "position": 0
+                        },
+                        {
+                          "color": "#0000001A",
+                          "position": 0.45
+                        },
+                        {
+                          "color": "#000000B8",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "width": 342,
+                  "height": 456
+                },
+                "OmcFf": {
+                  "fill": "$sage-deep"
+                },
+                "h2Akrs": {
+                  "content": "Papa"
+                },
+                "kHzWv": {
+                  "content": "DAD"
+                },
+                "Q9HAf": {
+                  "content": "[ placeholder — paste Papa's full message here. These are long messages, so this block is built for real paragraphs: it grows downward as you add words. ]"
+                }
+              }
+            },
+            {
+              "id": "EpqIO",
+              "type": "ref",
+              "ref": "P9jes",
+              "name": "Bhai",
+              "width": "fill_container",
+              "descendants": {
+                "zG4vB": {
+                  "fill": [
+                    "$bark",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 90,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000000",
+                          "position": 0
+                        },
+                        {
+                          "color": "#0000001A",
+                          "position": 0.45
+                        },
+                        {
+                          "color": "#000000B8",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "width": 342,
+                  "height": 456
+                },
+                "OmcFf": {
+                  "fill": "$ochre"
+                },
+                "h2Akrs": {
+                  "content": "Bhai"
+                },
+                "kHzWv": {
+                  "content": "BROTHER"
+                },
+                "Q9HAf": {
+                  "content": "[ placeholder — paste Bhai's full message here. These are long messages, so this block is built for real paragraphs: it grows downward as you add words. ]"
+                }
+              }
+            },
+            {
+              "id": "i9O8J0",
+              "type": "ref",
+              "ref": "P9jes",
+              "name": "Anant",
+              "width": "fill_container",
+              "descendants": {
+                "zG4vB": {
+                  "fill": [
+                    "$slate-blend",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 90,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000000",
+                          "position": 0
+                        },
+                        {
+                          "color": "#0000001A",
+                          "position": 0.45
+                        },
+                        {
+                          "color": "#000000B8",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "width": 342,
+                  "height": 456
+                },
+                "OmcFf": {
+                  "fill": "$moss"
+                },
+                "h2Akrs": {
+                  "content": "Anant"
+                },
+                "kHzWv": {
+                  "content": "HUSBAND"
+                },
+                "Q9HAf": {
+                  "content": "[ placeholder — paste Anant's full message here. These are long messages, so this block is built for real paragraphs: it grows downward as you add words. ]"
+                }
+              }
+            },
+            {
+              "id": "rx13k",
+              "type": "ref",
+              "ref": "P9jes",
+              "name": "Nani",
+              "width": "fill_container",
+              "descendants": {
+                "zG4vB": {
+                  "fill": [
+                    "$clay-rose",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 90,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000000",
+                          "position": 0
+                        },
+                        {
+                          "color": "#0000001A",
+                          "position": 0.45
+                        },
+                        {
+                          "color": "#000000B8",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "width": 342,
+                  "height": 456
+                },
+                "OmcFf": {
+                  "fill": "$clay-rose"
+                },
+                "h2Akrs": {
+                  "content": "Nani"
+                },
+                "kHzWv": {
+                  "content": "GRANDMOTHER"
+                },
+                "Q9HAf": {
+                  "content": "[ placeholder — paste Nani's full message here. These are long messages, so this block is built for real paragraphs: it grows downward as you add words. ]"
+                }
+              }
+            },
+            {
+              "id": "r6oF8F",
+              "type": "ref",
+              "ref": "P9jes",
+              "name": "Priya",
+              "width": "fill_container",
+              "descendants": {
+                "zG4vB": {
+                  "fill": [
+                    "$photo-backdrop",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 90,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000000",
+                          "position": 0
+                        },
+                        {
+                          "color": "#0000001A",
+                          "position": 0.45
+                        },
+                        {
+                          "color": "#000000B8",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "width": 342,
+                  "height": 456
+                },
+                "OmcFf": {
+                  "fill": "$bark"
+                },
+                "h2Akrs": {
+                  "content": "Priya"
+                },
+                "kHzWv": {
+                  "content": "BEST FRIEND"
+                },
+                "Q9HAf": {
+                  "content": "[ placeholder — paste Priya's full message here. These are long messages, so this block is built for real paragraphs: it grows downward as you add words. ]"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OOzEG",
+          "name": "Closing Wrap",
+          "width": "fill_container",
+          "padding": [
+            0,
+            24,
+            56,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "tGODp",
+              "name": "Closing",
+              "width": "fill_container",
+              "fill": "$bg-inverse",
+              "cornerRadius": "$radius-lg",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                48,
+                28
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g8sPeB",
+                  "name": "Eyebrow",
+                  "fill": "$fern",
+                  "content": "ONE MORE THING",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "fIfo9",
+                  "name": "Heading",
+                  "fill": "$text-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We are so proud of you — the CPA, the deals, all of it. But mostly just you.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "$font-display",
+                  "fontSize": 26,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "kLUrU",
+                  "name": "Sub",
+                  "fill": "#C9CFC4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Have the happiest birthday. Now go back and pretend you were just looking for the email.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "jmNB9",
+                  "name": "Button",
+                  "fill": "$bg-canvas",
+                  "cornerRadius": "$radius-full",
+                  "gap": 8,
+                  "padding": [
+                    13,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "skicH",
+                      "name": "Label",
+                      "fill": "$text-primary",
+                      "content": "kanikag2@outlook.com",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "O1Neif",
+                      "name": "Icon",
+                      "width": 13,
+                      "height": 13,
+                      "icon": "copy",
+                      "library": "lucide",
+                      "fill": "$text-primary"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yUuIv",
+          "name": "Footer",
+          "width": "fill_container",
+          "padding": [
+            0,
+            24,
+            44,
+            24
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "B3Kdav",
+              "name": "Note",
+              "fill": "$text-muted",
+              "content": "made with love · 2026",
+              "fontFamily": "$font-mono",
+              "fontSize": 9,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "P9jes",
+      "x": 4640,
+      "y": -990,
+      "name": "Tribute — Mobile",
+      "reusable": true,
+      "width": 342,
+      "layout": "vertical",
+      "gap": 20,
+      "children": [
+        {
+          "type": "frame",
+          "id": "zG4vB",
+          "name": "Photo",
+          "clip": true,
+          "width": 342,
+          "height": 456,
+          "fill": [
+            "$slate-blend",
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 90,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#00000000",
+                  "position": 0
+                },
+                {
+                  "color": "#0000001A",
+                  "position": 0.45
+                },
+                {
+                  "color": "#000000B8",
+                  "position": 1
+                }
+              ]
+            }
+          ],
+          "cornerRadius": "$radius-lg",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "iL5zK",
+              "layoutPosition": "absolute",
+              "x": 135,
+              "y": 204,
+              "name": "Photo Hint",
+              "layout": "vertical",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "j5pm7V",
+                  "name": "Icon",
+                  "width": 22,
+                  "height": 22,
+                  "icon": "image",
+                  "library": "lucide",
+                  "fill": "#FAF7F080"
+                },
+                {
+                  "type": "text",
+                  "id": "COpSE",
+                  "name": "Label",
+                  "fill": "#FAF7F099",
+                  "content": "PHOTO · 3:4",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A3OIX",
+          "name": "Message",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "children": [
+            {
+              "type": "frame",
+              "id": "W7NTa",
+              "name": "Sig Row",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "OmcFf",
+                  "name": "Dot",
+                  "fill": "$terracotta",
+                  "width": 28,
+                  "height": 28
+                },
+                {
+                  "type": "frame",
+                  "id": "Y0QheT",
+                  "name": "Name Wrap",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h2Akrs",
+                      "name": "From",
+                      "fill": "$text-primary",
+                      "content": "Name",
+                      "fontFamily": "$font-display",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kHzWv",
+                      "name": "Relation",
+                      "fill": "$text-muted",
+                      "content": "RELATION",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 9,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Q9HAf",
+              "name": "Body",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "[ message ]",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "L94ztc",
+      "x": 5230,
+      "y": -230,
+      "name": "Portfolio — Mobile",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg-canvas",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ixAjl",
+          "name": "Nav",
+          "width": "fill_container",
+          "padding": [
+            20,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "OEqSi",
+              "name": "Brand",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "tXJtA",
+                  "name": "Avatar",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "public/kanika.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 28,
+                  "height": 28
+                },
+                {
+                  "type": "text",
+                  "id": "movxC",
+                  "name": "Name",
+                  "fill": "$text-primary",
+                  "content": "Kanika Gupta",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "icon",
+              "id": "TUBv8",
+              "name": "Menu",
+              "width": 20,
+              "height": 20,
+              "icon": "menu",
+              "library": "lucide",
+              "fill": "$text-primary"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xJqsZ",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            36,
+            24,
+            44,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "rCNBi",
+              "name": "Greeting",
+              "fill": "$text-muted",
+              "content": "Seattle  ·  Vancouver  ·  Delhi",
+              "fontFamily": "$font-mono",
+              "fontSize": 10,
+              "fontWeight": "normal",
+              "letterSpacing": 1.2
+            },
+            {
+              "type": "text",
+              "id": "Eb3b7",
+              "name": "Headline",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Transaction advisory — FDD, quality of earnings, carve-outs.",
+              "lineHeight": 1.12,
+              "fontFamily": "$font-display",
+              "fontSize": 34,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "U6alZo",
+              "name": "Sub",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "CPA candidate (Washington State, AUD passed) working across financial due diligence, quality of earnings and carve-outs — in SaaS, industrials and healthcare — with a public accounting audit foundation and cross-border Canada/US deal experience.",
+              "lineHeight": 1.6,
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "VyPyQ",
+              "name": "CTAs",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uvu81",
+                  "name": "Primary CTA",
+                  "width": "fill_container",
+                  "fill": "$bg-inverse",
+                  "cornerRadius": "$radius-full",
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    22
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ez2dI",
+                      "name": "Label",
+                      "fill": "$text-inverse",
+                      "content": "Download resume",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "SLVsx",
+                      "name": "Icon",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "arrow-down",
+                      "library": "lucide",
+                      "fill": "$text-inverse"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "srcdH",
+                  "name": "Secondary CTA",
+                  "width": "fill_container",
+                  "cornerRadius": "$radius-full",
+                  "stroke": "$border-default",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    22
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "B5dyUJ",
+                      "name": "Label",
+                      "fill": "$text-primary",
+                      "content": "Get in touch",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Rr9r6",
+          "name": "Work",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            24,
+            56,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "oFGdC",
+              "name": "Heading",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cxp5J",
+                  "name": "Eyebrow",
+                  "fill": "$terracotta",
+                  "content": "SELECTED ENGAGEMENTS",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "etK5M",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Deal work",
+                  "lineHeight": 1.15,
+                  "fontFamily": "$font-display",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "HVnZq",
+                  "name": "Meta",
+                  "fill": "$text-muted",
+                  "content": "2024 — 2026",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D5dHTN",
+              "name": "Case List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "p9Dqj1",
+                  "name": "Engineering VDD — Revenue Recognition",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$bg-raised",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jNEoM",
+                      "name": "Thumb",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "$sage-deep"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d702Ne",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "G9Ta4",
+                          "name": "Top",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "idFsN",
+                              "name": "Year",
+                              "fill": "$text-muted",
+                              "content": "2025",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "APQCN",
+                              "name": "Sep",
+                              "fill": "$text-muted",
+                              "content": "·",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jVYMC",
+                              "name": "Role",
+                              "fill": "$text-muted",
+                              "content": "Transaction Services",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "h4A1a",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Engineering VDD — Revenue Recognition",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-display",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "waawA",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Description of the engagement and the outcome it produced.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tVCR2",
+                  "name": "SaaS Buy-Side Diligence",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$bg-raised",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wppz9",
+                      "name": "Thumb",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "$photo-mauve"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IZ2Vk",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WVWag",
+                          "name": "Top",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eCkzk",
+                              "name": "Year",
+                              "fill": "$text-muted",
+                              "content": "2025",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "mxSXP",
+                              "name": "Sep",
+                              "fill": "$text-muted",
+                              "content": "·",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "gt7Jv",
+                              "name": "Role",
+                              "fill": "$text-muted",
+                              "content": "Transaction Services",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "l5eDwx",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "SaaS Buy-Side Diligence",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-display",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TaO9Q",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Description of the engagement and the outcome it produced.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P6ZiIm",
+                  "name": "Software Carve-Outs",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$bg-raised",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "puME6",
+                      "name": "Thumb",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "$bark"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oa9hO",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LgjT9",
+                          "name": "Top",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "N9E6G7",
+                              "name": "Year",
+                              "fill": "$text-muted",
+                              "content": "2025",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "Vkylh",
+                              "name": "Sep",
+                              "fill": "$text-muted",
+                              "content": "·",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "sQxas",
+                              "name": "Role",
+                              "fill": "$text-muted",
+                              "content": "Transaction Services",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "l8pqHT",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Software Carve-Outs",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-display",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AJvc3",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Description of the engagement and the outcome it produced.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nd1IB",
+                  "name": "Multinational Asset Consolidation",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$bg-raised",
+                  "cornerRadius": "$radius-lg",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qNoFa",
+                      "name": "Thumb",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "$slate-blend"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UBbTr",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "W3FjiF",
+                          "name": "Top",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "S1NXop",
+                              "name": "Year",
+                              "fill": "$text-muted",
+                              "content": "2025",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "hSY1n",
+                              "name": "Sep",
+                              "fill": "$text-muted",
+                              "content": "·",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "b22d0p",
+                              "name": "Role",
+                              "fill": "$text-muted",
+                              "content": "Transaction Services",
+                              "fontFamily": "$font-mono",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "N5wK1",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Multinational Asset Consolidation",
+                          "lineHeight": 1.25,
+                          "fontFamily": "$font-display",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rhXka",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Description of the engagement and the outcome it produced.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "B8UBnz",
+          "name": "Experience",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            24,
+            56,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LH64f",
+              "name": "Heading",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "k5bC5d",
+                  "name": "Eyebrow",
+                  "fill": "$terracotta",
+                  "content": "EXPERIENCE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "oyGU3",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Where I've worked",
+                  "lineHeight": 1.15,
+                  "fontFamily": "$font-display",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m22mpN",
+              "name": "Rows",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "b63oh",
+                  "name": "BDO",
+                  "width": "fill_container",
+                  "stroke": "$border-subtle",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LzFdx",
+                      "name": "Years",
+                      "fill": "$text-muted",
+                      "content": "2025 — 2026",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "wJ0dY",
+                      "name": "Role",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Associate, Transaction Services",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G0zwSX",
+                      "name": "Co",
+                      "fill": "$text-muted",
+                      "content": "BDO · Calgary",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cxVXV",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Executed 23 middle-market buy-side and sell-side engagements.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J3ZbF",
+                  "name": "Buckley Dodds CPA",
+                  "width": "fill_container",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d9ipEC",
+                      "name": "Years",
+                      "fill": "$text-muted",
+                      "content": "2024 — 2025",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "p7KUWb",
+                      "name": "Role",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Staff Accountant",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c4fYU",
+                      "name": "Co",
+                      "fill": "$text-muted",
+                      "content": "Buckley Dodds CPA · Vancouver",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HOkKn",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Led 20 mid-market audit engagements across healthcare, energy and real estate.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R49JUi",
+                  "name": "Gaurav International",
+                  "width": "fill_container",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "i9Ekd",
+                      "name": "Years",
+                      "fill": "$text-muted",
+                      "content": "2021 — 2022",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "nA271",
+                      "name": "Role",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Financial Analyst",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pWaYF",
+                      "name": "Co",
+                      "fill": "$text-muted",
+                      "content": "Gaurav International · Delhi",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TKRKw",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Analyzed pricing, margins and operating costs to surface profitability gaps.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ebnu7",
+                  "name": "Ernst & Young",
+                  "width": "fill_container",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eTpiF",
+                      "name": "Years",
+                      "fill": "$text-muted",
+                      "content": "2020 — 2021",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "b60vx",
+                      "name": "Role",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Assurance Associate",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a7VWsJ",
+                      "name": "Co",
+                      "fill": "$text-muted",
+                      "content": "Ernst & Young · Delhi",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r6rns",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Executed quarterly and year-end audits across technology and consumer clients.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RukWA",
+          "name": "Credentials",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            24,
+            56,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "FJkfl",
+              "name": "Heading",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y4Q53W",
+                  "name": "Eyebrow",
+                  "fill": "$terracotta",
+                  "content": "EDUCATION & CREDENTIALS",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "RzWcH",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Qualifications",
+                  "lineHeight": 1.15,
+                  "fontFamily": "$font-display",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jNwX4",
+              "name": "Credential List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vy8LJ",
+                  "name": "CPA Candidate",
+                  "width": "fill_container",
+                  "fill": "$bg-raised",
+                  "cornerRadius": "$radius-md",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JGBAG",
+                      "name": "When",
+                      "fill": "$text-muted",
+                      "content": "In progress",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "FCgQU",
+                      "name": "Qualification",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "CPA Candidate",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n7kl3i",
+                      "name": "Institution",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Washington State",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TBHfZ",
+                      "name": "Detail",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AUD passed · FAR scheduled",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j9VTt",
+                  "name": "MSc, Finance",
+                  "width": "fill_container",
+                  "fill": "$bg-raised",
+                  "cornerRadius": "$radius-md",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ta4Es",
+                      "name": "When",
+                      "fill": "$text-muted",
+                      "content": "2022 — 2023",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "LFMFd",
+                      "name": "Qualification",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "MSc, Finance",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CX8wM",
+                      "name": "Institution",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Simon Fraser University",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zxYXJ",
+                      "name": "Detail",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Merit Scholar · Vancouver, Canada",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YDMYI",
+                  "name": "BCom, Honors",
+                  "width": "fill_container",
+                  "fill": "$bg-raised",
+                  "cornerRadius": "$radius-md",
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OObxx",
+                      "name": "When",
+                      "fill": "$text-muted",
+                      "content": "2017 — 2020",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "wpugG",
+                      "name": "Qualification",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "BCom, Honors",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "t8vUGq",
+                      "name": "Institution",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "University of Delhi",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U9dVv",
+                      "name": "Detail",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Delhi, India",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UMBOe",
+          "name": "Contact Wrap",
+          "width": "fill_container",
+          "padding": [
+            0,
+            24,
+            40,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "nojvJ",
+              "name": "Contact",
+              "width": "fill_container",
+              "fill": "$bg-inverse",
+              "cornerRadius": "$radius-lg",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                44,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JNoti",
+                  "name": "Eyebrow",
+                  "fill": "$fern",
+                  "content": "GET IN TOUCH",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "JXiU9",
+                  "name": "Heading",
+                  "fill": "$text-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Let's talk about your next deal.",
+                  "lineHeight": 1.18,
+                  "textAlign": "center",
+                  "fontFamily": "$font-display",
+                  "fontSize": 26,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "mM6Z6",
+                  "name": "Sub",
+                  "fill": "#C9CFC4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Open to transaction advisory and financial due diligence roles in Seattle. CPA candidate, FAR scheduled.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "jYct2",
+                  "name": "Button",
+                  "fill": "$bg-canvas",
+                  "cornerRadius": "$radius-full",
+                  "gap": 8,
+                  "padding": [
+                    13,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MHBj4",
+                      "name": "Label",
+                      "fill": "$text-primary",
+                      "content": "kanikag2@outlook.com",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "c9TufI",
+                      "name": "Arrow",
+                      "width": 13,
+                      "height": 13,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "$text-primary"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "N8NI91",
+          "name": "Footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            0,
+            24,
+            40,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "PHlB0",
+              "name": "Social",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Vlkfj",
+                  "name": "LinkedIn",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "hiRFC",
+                      "name": "Icon",
+                      "width": 13,
+                      "height": 13,
+                      "icon": "linkedin",
+                      "library": "lucide",
+                      "fill": "$text-muted"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sEzLW",
+                      "name": "Label",
+                      "fill": "$text-muted",
+                      "content": "LinkedIn",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SEMgu",
+                  "name": "GitHub",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "tSxJ4",
+                      "name": "Icon",
+                      "width": 13,
+                      "height": 13,
+                      "icon": "github",
+                      "library": "lucide",
+                      "fill": "$text-muted"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i8tiDH",
+                      "name": "Label",
+                      "fill": "$text-muted",
+                      "content": "GitHub",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dzNf7",
+                  "name": "Email",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "eBhYQ",
+                      "name": "Icon",
+                      "width": 13,
+                      "height": 13,
+                      "icon": "mail",
+                      "library": "lucide",
+                      "fill": "$text-muted"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xPiD0",
+                      "name": "Label",
+                      "fill": "$text-muted",
+                      "content": "Email",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "BUome",
+              "name": "Copyright",
+              "fill": "$text-muted",
+              "content": "© 2026 Kanika Gupta",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qRxHo",
+      "x": 3011,
+      "y": -714,
+      "name": "Egg Hero Wrap",
+      "width": "fill_container(1440)",
+      "padding": [
+        72,
+        0,
+        64,
+        0
+      ],
+      "justifyContent": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "tb0iI",
+          "name": "Egg Hero",
+          "width": 1040,
+          "layout": "vertical",
+          "gap": "$space-5",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SWSfD",
+              "name": "Eyebrow",
+              "fill": "$sage-deep",
+              "content": "SEPTEMBER · A LETTER FROM EVERYONE",
+              "fontFamily": "$font-mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "U4WInE",
+              "name": "Headline",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 960,
+              "content": "Happy birthday, Kanika.",
+              "lineHeight": 1.08,
+              "textAlign": "center",
+              "fontFamily": "$font-display",
+              "fontSize": 72,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "PrjwA",
+              "name": "Sub",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "You came here looking for an email address. Instead — everyone who loves you sent a photo and wrote you something, and hid it all behind it.",
+              "lineHeight": 1.65,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 17,
+              "fontWeight": "normal"
             }
           ]
         }
