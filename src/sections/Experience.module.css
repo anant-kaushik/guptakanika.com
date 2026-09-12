@@ -1,0 +1,20 @@
+/* The single tonal band on the page. See design guidelines §5 —
+   the effect depends on this being the only one. */
+.wrap {
+  padding-block: var(--section-gap);
+  background: var(--bg-sunken);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+}
+
+.rows {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

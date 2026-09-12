@@ -1,0 +1,102 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  background: var(--bg-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+
+/* Side-by-side once there is room for a 280px thumb plus readable text. */
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--space-7);
+    padding: var(--space-6);
+  }
+}
+
+.thumb {
+  flex: none;
+  width: 100%;
+  aspect-ratio: 280 / 196;
+  background: var(--sand);
+  border-radius: var(--radius-md);
+}
+
+@media (min-width: 768px) {
+  .thumb {
+    width: 280px;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
+  flex: 1;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+.separator {
+  font-family: var(--font-body);
+  font-size: 12px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  /* 19 mobile → 26 desktop. */
+  font-size: clamp(1.1875rem, 1rem + 0.8vw, 1.625rem);
+  line-height: 1.25;
+  color: var(--text-primary);
+  text-wrap: balance;
+}
+
+.desc {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: var(--space-1) 0 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 7px;
+  padding-top: var(--space-2);
+  color: var(--moss);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.link:hover .arrow,
+.link:focus-visible .arrow {
+  transform: translateX(3px);
+}
+
+.arrow {
+  transition: transform 160ms ease;
+}

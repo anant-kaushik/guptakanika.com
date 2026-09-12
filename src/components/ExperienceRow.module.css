@@ -1,0 +1,73 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.row:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.row:last-child {
+  padding-bottom: 0;
+}
+
+/* Years move into a left rail once there is horizontal room. */
+@media (min-width: 768px) {
+  .row {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: var(--space-5);
+    column-gap: var(--space-6);
+    padding: var(--space-6) 0;
+  }
+}
+
+.years {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.titleRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+
+.role {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+.separator {
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+.company {
+  font-size: 16px;
+  color: var(--moss);
+}
+
+.desc {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 68ch;
+}

@@ -1,0 +1,47 @@
+{
+  "eyebrow": "SELECTED ENGAGEMENTS",
+  "title": "Deal work",
+  "count": "2024 — 2026",
+  "items": [
+    {
+      "id": "engineering-vdd",
+      "year": "2025",
+      "role": "Transaction Services",
+      "title": "Engineering VDD — Revenue Recognition",
+      "description": "Description of the engagement and the outcome it produced.",
+      "tags": ["Tag one", "Tag two", "Tag three"],
+      "linkLabel": "Read the detail",
+      "href": ""
+    },
+    {
+      "id": "saas-buy-side",
+      "year": "2025",
+      "role": "Transaction Services",
+      "title": "SaaS Buy-Side Diligence",
+      "description": "Description of the engagement and the outcome it produced.",
+      "tags": ["Tag one", "Tag two", "Tag three"],
+      "linkLabel": "Read the detail",
+      "href": ""
+    },
+    {
+      "id": "software-carve-outs",
+      "year": "2025",
+      "role": "Transaction Services",
+      "title": "Software Carve-Outs",
+      "description": "Description of the engagement and the outcome it produced.",
+      "tags": ["Tag one", "Tag two", "Tag three"],
+      "linkLabel": "Read the detail",
+      "href": ""
+    },
+    {
+      "id": "multinational-consolidation",
+      "year": "2025",
+      "role": "Transaction Services",
+      "title": "Multinational Asset Consolidation",
+      "description": "Description of the engagement and the outcome it produced.",
+      "tags": ["Tag one", "Tag two", "Tag three"],
+      "linkLabel": "Read the detail",
+      "href": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  /* 28 at 390px → 40 at desktop. */
+  font-size: clamp(1.75rem, 1.35rem + 1.7vw, 2.5rem);
+  color: var(--text-primary);
+  text-wrap: balance;
+}
+
+.small .title {
+  /* Credentials sits one step down: 26 → 34. */
+  font-size: clamp(1.625rem, 1.35rem + 1.2vw, 2.125rem);
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
