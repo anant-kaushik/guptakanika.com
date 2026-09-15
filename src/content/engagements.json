@@ -5,41 +5,45 @@
   "items": [
     {
       "id": "engineering-vdd",
+      "accent": "sage-deep",
       "year": "2025",
       "role": "Transaction Services",
       "title": "Engineering VDD — Revenue Recognition",
-      "description": "Description of the engagement and the outcome it produced.",
-      "tags": ["Tag one", "Tag two", "Tag three"],
+      "description": "Identified a $750K EBITDA normalization adjustment driven by a revenue recognition issue, directly impacting purchase price considerations.",
+      "tags": ["Vendor-side", "EBITDA normalization", "Revenue recognition"],
       "linkLabel": "Read the detail",
       "href": ""
     },
     {
       "id": "saas-buy-side",
+      "accent": "photo-mauve",
       "year": "2025",
       "role": "Transaction Services",
       "title": "SaaS Buy-Side Diligence",
-      "description": "Description of the engagement and the outcome it produced.",
-      "tags": ["Tag one", "Tag two", "Tag three"],
+      "description": "Flagged customer concentration with the top 3 customers representing ~52% of ARR, prompting further diligence into customer retention and contract continuity.",
+      "tags": ["Buy-side FDD", "ARR analysis", "Customer concentration"],
       "linkLabel": "Read the detail",
       "href": ""
     },
     {
       "id": "software-carve-outs",
+      "accent": "bark",
       "year": "2025",
       "role": "Transaction Services",
       "title": "Software Carve-Outs",
-      "description": "Description of the engagement and the outcome it produced.",
-      "tags": ["Tag one", "Tag two", "Tag three"],
+      "description": "Executed two carve-out engagements (~$20M and ~$6M in standalone revenue) for a buy-side software acquirer, isolating target businesses through revenue/cost mapping and shared-cost allocations.",
+      "tags": ["Carve-out", "Shared-cost allocation", "Standalone revenue"],
       "linkLabel": "Read the detail",
       "href": ""
     },
     {
       "id": "multinational-consolidation",
-      "year": "2025",
-      "role": "Transaction Services",
+      "accent": "slate-blend",
+      "year": "2024",
+      "role": "Audit",
       "title": "Multinational Asset Consolidation",
-      "description": "Description of the engagement and the outcome it produced.",
-      "tags": ["Tag one", "Tag two", "Tag three"],
+      "description": "Designed audit procedures for a ~$32M asset consolidation across 4 subsidiaries in 3 countries, testing intercompany eliminations and foreign-currency translation.",
+      "tags": ["Cross-border", "Intercompany eliminations", "FX translation"],
       "linkLabel": "Read the detail",
       "href": ""
     }

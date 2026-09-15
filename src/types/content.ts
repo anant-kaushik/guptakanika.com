@@ -1,3 +1,5 @@
+export type EngagementAccent = 'sage-deep' | 'photo-mauve' | 'bark' | 'slate-blend'
+
 export interface Engagement {
   id: string
   year: string
@@ -5,6 +7,7 @@ export interface Engagement {
   title: string
   description: string
   tags: string[]
+  accent?: EngagementAccent
   linkLabel?: string
   href?: string
 }

@@ -14,15 +14,35 @@
   },
   "copyright": "© 2026 Kanika Gupta",
   "nav": [
-    { "label": "About", "href": "#about" },
-    { "label": "Engagements", "href": "#engagements" },
-    { "label": "Experience", "href": "#experience" },
-    { "label": "Education", "href": "#education" },
-    { "label": "Contact", "href": "#contact" }
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Engagements",
+      "href": "#engagements"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Education",
+      "href": "#education"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
   ],
   "socials": [
-    { "label": "LinkedIn", "href": "https://www.linkedin.com/" },
-    { "label": "GitHub", "href": "https://github.com/" },
-    { "label": "Email", "href": "mailto:kanikag2@outlook.com" }
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/kanika-gupta07/"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:kanikag2@outlook.com"
+    }
   ]
 }
