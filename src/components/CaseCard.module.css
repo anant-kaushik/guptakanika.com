@@ -1,11 +1,14 @@
+/* Mobile card is a clipped shell: the thumb runs edge to edge under the
+   rounded corners and the body carries the padding instead. */
 .card {
   display: flex;
   flex-direction: column;
-  gap: var(--space-5);
+  gap: 0;
+  overflow: hidden;
   background: var(--bg-raised);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: var(--space-5);
+  padding: 0;
 }
 
 /* Side-by-side once there is room for a 280px thumb plus readable text. */
@@ -14,6 +17,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: var(--space-7);
+    overflow: visible;
     padding: var(--space-6);
   }
 }
@@ -21,23 +25,33 @@
 .thumb {
   flex: none;
   width: 100%;
-  aspect-ratio: 280 / 196;
+  height: 150px;
   background: var(--sand);
-  border-radius: var(--radius-md);
 }
 
 @media (min-width: 768px) {
   .thumb {
     width: 280px;
+    height: auto;
+    aspect-ratio: 280 / 196;
+    border-radius: var(--radius-md);
   }
 }
 
 .body {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: 10px;
   min-width: 0;
   flex: 1;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .body {
+    gap: var(--space-4);
+    padding: 0;
+  }
 }
 
 .meta {
@@ -46,9 +60,15 @@
   align-items: center;
   gap: var(--space-3);
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 10px;
   letter-spacing: 1px;
   color: var(--text-muted);
+}
+
+@media (min-width: 768px) {
+  .meta {
+    font-size: 11px;
+  }
 }
 
 .separator {
@@ -67,9 +87,16 @@
 }
 
 .desc {
-  font-size: 15px;
-  line-height: 1.65;
+  font-size: 14px;
+  line-height: 1.6;
   color: var(--text-secondary);
+}
+
+@media (min-width: 768px) {
+  .desc {
+    font-size: 15px;
+    line-height: 1.65;
+  }
 }
 
 .tags {
@@ -99,4 +126,24 @@
 
 .arrow {
   transition: transform 160ms ease;
+}
+
+/* Per-engagement thumb fills, matching the Case List in inspiration.pen.
+   Identical on desktop and mobile — both artboards instance one component.
+   photo-mauve and slate-blend are otherwise portrait-only tokens; the design
+   uses them here deliberately. */
+.accentSageDeep {
+  background: var(--sage-deep);
+}
+
+.accentPhotoMauve {
+  background: var(--photo-mauve);
+}
+
+.accentBark {
+  background: var(--bark);
+}
+
+.accentSlateBlend {
+  background: var(--slate-blend);
 }

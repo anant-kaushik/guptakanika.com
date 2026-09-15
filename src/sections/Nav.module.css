@@ -21,10 +21,21 @@
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 15px;
   font-weight: 600;
   color: var(--text-primary);
   white-space: nowrap;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  flex: none;
 }
 
 .links {

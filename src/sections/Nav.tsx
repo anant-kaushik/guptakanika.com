@@ -44,6 +44,14 @@ export function Nav({ name, links }: NavProps) {
     <header className={cn(styles.wrap, scrolled && styles.scrolled)}>
       <nav className={cn('container', styles.inner)} aria-label="Main">
         <a className={styles.brand} href="#top">
+          <img
+            className={styles.avatar}
+            src="/kanika.jpeg"
+            alt=""
+            width={28}
+            height={28}
+            decoding="async"
+          />
           {name}
         </a>
 

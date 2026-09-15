@@ -42,6 +42,7 @@
 }
 
 .headline {
+  margin: 0;
   font-family: var(--font-display);
   font-weight: 600;
   /* 34 at 390 → 56 at desktop. */
@@ -73,16 +74,17 @@
   }
 }
 
+/* Below the two-column breakpoint the portrait costs a full screen of
+   scroll before the copy, so the small-screen hero is text only. */
 .portrait {
-  flex: none;
-  width: min(300px, 72%);
-  align-self: flex-start;
+  display: none;
 }
 
 @media (min-width: 880px) {
   .portrait {
+    display: block;
+    flex: none;
     width: 300px;
-    align-self: auto;
   }
 }
 

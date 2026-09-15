@@ -18,7 +18,7 @@
     opacity 160ms ease;
 }
 
-/* On narrow screens CTAs stack and go full width so tap targets stay large. */
+/* Mobile artboard stacks the CTAs full width (inspiration.pen VyPyQ). */
 @media (max-width: 479px) {
   .button {
     width: 100%;

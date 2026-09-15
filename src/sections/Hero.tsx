@@ -9,10 +9,10 @@ export function Hero({ profile }: { profile: Profile }) {
     <section className={styles.wrap} id="about" aria-labelledby="hero-headline">
       <div className={cn('container', styles.inner)}>
         <div className={styles.copy}>
-          <p className={styles.greeting}>{profile.locations}</p>
           <h1 id="hero-headline" className={styles.headline}>
             {profile.headline}
           </h1>
+          <p className={styles.greeting}>{profile.locations}</p>
           <p className={styles.sub}>{profile.intro}</p>
           <div className={styles.ctas}>
             <Button
