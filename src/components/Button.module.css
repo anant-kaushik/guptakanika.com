@@ -1,0 +1,66 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  border-radius: var(--radius-full);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 13px var(--space-5);
+  border: 1px solid transparent;
+  text-align: center;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    opacity 160ms ease;
+}
+
+/* Mobile artboard stacks the CTAs full width (inspiration.pen VyPyQ). */
+@media (max-width: 479px) {
+  .button {
+    width: 100%;
+  }
+}
+
+.primary {
+  background: var(--forest);
+  color: var(--text-inverse);
+}
+
+.primary:hover:not(:disabled),
+.primary:focus-visible:not(:disabled) {
+  background: var(--moss);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+}
+
+.secondary:hover:not(:disabled),
+.secondary:focus-visible:not(:disabled) {
+  border-color: var(--text-primary);
+  background: var(--bg-raised);
+}
+
+.onDark {
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+  font-size: 15px;
+  padding: 14px 28px;
+}
+
+.onDark:hover:not(:disabled),
+.onDark:focus-visible:not(:disabled) {
+  background: var(--bg-raised);
+}
+
+.button:disabled,
+.button[aria-disabled='true'] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

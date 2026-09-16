@@ -1,0 +1,112 @@
+/* Earthen design tokens — 1:1 with inspiration.pen variables.
+   See docs/DESIGN_GUIDELINES.md. Never hardcode a value outside this file. */
+
+:root {
+  /* ---- Foundation ---- */
+  --bg-canvas: #f5f1e8;
+  --bg-raised: #faf7f0;
+  --bg-sunken: #ede7da;
+  --bg-inverse: #2f3630;
+
+  /* ---- Earth ---- */
+  --clay: #e3d9c6;
+  --sand: #d9cdb6;
+  --stone: #c4b7a0;
+  --bark: #786952;
+  --soil: #5c5245;
+
+  /* ---- Green ---- */
+  --sage: #a8b5a0;
+  --sage-deep: #7d8f76;
+  --moss: #5a6b52;
+  --forest: #3d4a38;
+  --fern: #94a88c;
+
+  /* ---- Accent ---- */
+  --terracotta: #be8460;
+  --terracotta-deep: #96694a;
+  --ochre: #cc9766;
+  --rust: #9e6447;
+
+  /* ---- Text ---- */
+  --text-primary: #2e332c;
+  --text-secondary: #5c6357;
+  --text-muted: #6a7063;
+  --text-inverse: #f5f1e8;
+  /* Sanctioned body colour on --bg-inverse. Do not go dimmer. */
+  --text-on-inverse: #c9cfc4;
+
+  /* ---- Borders ---- */
+  --border-subtle: #e0d8c8;
+  --border-default: #cfc4ae;
+  --border-strong: #a89c85;
+
+  /* ---- Slate (portrait surfaces only — never general UI neutrals) ---- */
+  --slate-mist: #ebe9ec;
+  --slate-veil: #d6d4d9;
+  --slate-soft: #ada9b1;
+  --slate: #75717a;
+  --slate-deep: #4c4a4f;
+  --slate-ink: #2e2b31;
+  --slate-blend: #545257;
+  --photo-backdrop: #4d4b4f;
+  --photo-mauve: #95726f;
+  --photo-ink: #101014;
+  --clay-rose: #ad8a85;
+
+  /* ---- Type families ---- */
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ---- Spacing ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* ---- Radius ---- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* ---- Layout ---- */
+  --content-max: 1040px;
+  --gutter: var(--space-5);
+
+  /* Section rhythm. Fluid between mobile (56) and desktop (88) so the
+     in-between widths never get a jarring jump. */
+  --section-gap: clamp(56px, 4vw + 34px, 88px);
+}
+
+/* Wider gutters once there is room for them, before the content cap kicks in. */
+@media (min-width: 600px) {
+  :root {
+    --gutter: var(--space-6);
+  }
+}
+
+@media (min-width: 1100px) {
+  :root {
+    --gutter: var(--space-7);
+  }
+}
+
+/* ---- Breakpoints ----
+   Custom properties cannot be used inside @media, so these are documented
+   here and written literally in the modules. Keep the two in sync.
+
+     --bp-xs   480px   stacked CTAs / full-width buttons below this
+     --bp-sm   600px   footer goes to a row, gutter widens
+     --bp-md   768px   case cards and experience rows go two-column
+     --bp-lg   880px   hero splits, desktop nav replaces the menu button
+     --bp-xl  1100px   widest gutter
+
+   Credentials uses 720px deliberately — three columns become readable
+   slightly before the general md breakpoint. */

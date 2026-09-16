@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+  /* Sticky nav is 68–72px; keep anchored sections clear of it. */
+  scroll-padding-top: 88px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.15;
+  font-optical-sizing: auto;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background: var(--sage);
+  color: var(--text-primary);
+}

@@ -1,0 +1,90 @@
+.wrap {
+  padding-top: clamp(36px, 5vw + 12px, 96px);
+  padding-bottom: var(--section-gap);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: var(--space-7);
+  align-items: flex-start;
+}
+
+/* Copy left / portrait right once both fit without crushing the text. */
+@media (min-width: 880px) {
+  .inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+  }
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
+  width: 100%;
+}
+
+@media (min-width: 880px) {
+  .copy {
+    max-width: 600px;
+  }
+}
+
+.greeting {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 1.6px;
+  color: var(--bark);
+}
+
+.headline {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  /* 34 at 390 → 56 at desktop. */
+  font-size: clamp(2.125rem, 1.4rem + 3vw, 3.5rem);
+  line-height: 1.12;
+  color: var(--text-primary);
+  text-wrap: balance;
+}
+
+.sub {
+  font-size: clamp(0.9375rem, 0.89rem + 0.2vw, 1.0625rem);
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 56ch;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  padding-top: var(--space-3);
+  width: 100%;
+}
+
+@media (max-width: 479px) {
+  .ctas {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* Below the two-column breakpoint the portrait costs a full screen of
+   scroll before the copy, so the small-screen hero is text only. */
+.portrait {
+  display: none;
+}
+
+@media (min-width: 880px) {
+  .portrait {
+    display: block;
+    flex: none;
+    width: 300px;
+  }
+}
+

@@ -1,0 +1,149 @@
+/* Mobile card is a clipped shell: the thumb runs edge to edge under the
+   rounded corners and the body carries the padding instead. */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow: hidden;
+  background: var(--bg-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 0;
+}
+
+/* Side-by-side once there is room for a 280px thumb plus readable text. */
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--space-7);
+    overflow: visible;
+    padding: var(--space-6);
+  }
+}
+
+.thumb {
+  flex: none;
+  width: 100%;
+  height: 150px;
+  background: var(--sand);
+}
+
+@media (min-width: 768px) {
+  .thumb {
+    width: 280px;
+    height: auto;
+    aspect-ratio: 280 / 196;
+    border-radius: var(--radius-md);
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .body {
+    gap: var(--space-4);
+    padding: 0;
+  }
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+@media (min-width: 768px) {
+  .meta {
+    font-size: 11px;
+  }
+}
+
+.separator {
+  font-family: var(--font-body);
+  font-size: 12px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  /* 19 mobile → 26 desktop. */
+  font-size: clamp(1.1875rem, 1rem + 0.8vw, 1.625rem);
+  line-height: 1.25;
+  color: var(--text-primary);
+  text-wrap: balance;
+}
+
+.desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+@media (min-width: 768px) {
+  .desc {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: var(--space-1) 0 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 7px;
+  padding-top: var(--space-2);
+  color: var(--moss);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.link:hover .arrow,
+.link:focus-visible .arrow {
+  transform: translateX(3px);
+}
+
+.arrow {
+  transition: transform 160ms ease;
+}
+
+/* Per-engagement thumb fills, matching the Case List in inspiration.pen.
+   Identical on desktop and mobile — both artboards instance one component.
+   photo-mauve and slate-blend are otherwise portrait-only tokens; the design
+   uses them here deliberately. */
+.accentSageDeep {
+  background: var(--sage-deep);
+}
+
+.accentPhotoMauve {
+  background: var(--photo-mauve);
+}
+
+.accentBark {
+  background: var(--bark);
+}
+
+.accentSlateBlend {
+  background: var(--slate-blend);
+}

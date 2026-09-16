@@ -1,0 +1,48 @@
+{
+  "name": "Kanika Gupta",
+  "locations": "Seattle  ·  Vancouver  ·  Delhi",
+  "headline": "Transaction advisory — FDD, quality of earnings, carve-outs.",
+  "intro": "CPA candidate (Washington State, AUD passed) working across financial due diligence, quality of earnings and carve-outs — in SaaS, industrials and healthcare — with a public accounting audit foundation and cross-border Canada/US deal experience.",
+  "email": "kanikag2@outlook.com",
+  "resumeUrl": "/resume.pdf",
+  "resumeFilename": "Resume - Kanika Gupta.pdf",
+  "resumeAvailable": true,
+  "contact": {
+    "eyebrow": "GET IN TOUCH",
+    "heading": "Let's talk about your next deal.",
+    "body": "Open to transaction advisory and financial due diligence roles in Seattle. CPA candidate, FAR scheduled. Happy to talk anytime."
+  },
+  "copyright": "© 2026 Kanika Gupta",
+  "nav": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Engagements",
+      "href": "#engagements"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Education",
+      "href": "#education"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/kanika-gupta07/"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:kanikag2@outlook.com"
+    }
+  ]
+}

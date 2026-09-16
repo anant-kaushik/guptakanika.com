@@ -1,0 +1,51 @@
+{
+  "eyebrow": "SELECTED ENGAGEMENTS",
+  "title": "Deal work",
+  "count": "2024 — 2026",
+  "items": [
+    {
+      "id": "engineering-vdd",
+      "accent": "sage-deep",
+      "year": "2025",
+      "role": "Transaction Services",
+      "title": "Engineering VDD — Revenue Recognition",
+      "description": "Identified a $750K EBITDA normalization adjustment driven by a revenue recognition issue, directly impacting purchase price considerations.",
+      "tags": ["Vendor-side", "EBITDA normalization", "Revenue recognition"],
+      "linkLabel": "Read the detail",
+      "href": ""
+    },
+    {
+      "id": "saas-buy-side",
+      "accent": "photo-mauve",
+      "year": "2025",
+      "role": "Transaction Services",
+      "title": "SaaS Buy-Side Diligence",
+      "description": "Flagged customer concentration with the top 3 customers representing ~52% of ARR, prompting further diligence into customer retention and contract continuity.",
+      "tags": ["Buy-side FDD", "ARR analysis", "Customer concentration"],
+      "linkLabel": "Read the detail",
+      "href": ""
+    },
+    {
+      "id": "software-carve-outs",
+      "accent": "bark",
+      "year": "2025",
+      "role": "Transaction Services",
+      "title": "Software Carve-Outs",
+      "description": "Executed two carve-out engagements (~$20M and ~$6M in standalone revenue) for a buy-side software acquirer, isolating target businesses through revenue/cost mapping and shared-cost allocations.",
+      "tags": ["Carve-out", "Shared-cost allocation", "Standalone revenue"],
+      "linkLabel": "Read the detail",
+      "href": ""
+    },
+    {
+      "id": "multinational-consolidation",
+      "accent": "slate-blend",
+      "year": "2024",
+      "role": "Audit",
+      "title": "Multinational Asset Consolidation",
+      "description": "Designed audit procedures for a ~$32M asset consolidation across 4 subsidiaries in 3 countries, testing intercompany eliminations and foreign-currency translation.",
+      "tags": ["Cross-border", "Intercompany eliminations", "FX translation"],
+      "linkLabel": "Read the detail",
+      "href": ""
+    }
+  ]
+}
